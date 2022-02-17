@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">portfolioApp</string>
+    <string name="tecnologias">Tecnologias</string>
+    <string name="proyectos">Proyectos</string>
+    <string name="PrincipalName">Kevin Alexander Peñaranda Soto</string>
+    <string name="title_activity_tecnologias">Tecnologias</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Hola!! soy Kevin, estudiante de últimos semestres de Ingeniería Electrónica, estoy interesado en el desarrollo Mobile y BackEnd. Tengo conocimientos en JavaScript , Nodejs ,Kotlin, SQL ,
+        HTML y Bootstrap, manejo de Git y GitHub ,tengo un nivel intermedio de inglés.</string>
+    <string name="github_page">https://github.com/KevinAlexanderSoto</string>
+    <string name="web_page">https://kevinalexandersoto.com</string>
+    <string name="linked_page">https://www.linkedin.com/in/kevin-alexander-pe%C3%B1aranda-soto-a018761aa/</string>
+    <string name="youtube_page">https://www.youtube.com/channel/UCjkEHeqVIw2jBMT5ehOWuoQ</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_constraintVertical_bias="1"
+    tools:context=".tecnoFragment"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewTecno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        />
+</LinearLayout>

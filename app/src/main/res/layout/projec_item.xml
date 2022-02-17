@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="2.5dp"
+    android:layout_marginTop="8dp"
+    android:layout_gravity="center_horizontal"
+    app:cardBackgroundColor="@color/gris"
+    style="?attr/materialCardViewElevatedStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_proyec_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="16dp"
+            android:text="ToDid APP"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <ImageView
+            android:id="@+id/img_proyec_id"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/proyects_icon"
+            >
+
+        </ImageView>
+        <TextView
+            android:id="@+id/desc_proyec_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Aplicacion de consola"
+            android:gravity="center"
+            />
+            <Button
+                android:id="@+id/project_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ver Codigo"
+                android:layout_margin="8dp"
+                >
+
+            </Button>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

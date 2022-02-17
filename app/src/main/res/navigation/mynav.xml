@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.kalex.portfolioapp.mainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/tecnoFragment"
+        android:name="com.kalex.portfolioapp.tecnoFragment"
+        android:label="fragment_tecno"
+        tools:layout="@layout/fragment_tecno" />
+    <fragment
+        android:id="@+id/projecFragment"
+        android:name="com.kalex.portfolioapp.proyecFragment"
+        android:label="fragment_proyec"
+        tools:layout="@layout/fragment_proyec" />
+</navigation>
